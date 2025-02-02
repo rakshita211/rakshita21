@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedBus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="logo">
+            <img src="redbus_logo.png" alt="RedBus Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Search Buses</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="search-container">
+            <h2>Find Your Bus</h2>
+            <form action="#" method="GET">
+                <input type="text" id="from" placeholder="From" required>
+                <input type="text" id="to" placeholder="To" required>
+                <input type="date" id="date" required>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Bus Listings Section -->
+    <section class="bus-listings">
+        <h2>Available Buses</h2>
+        <div class="bus-card">
+            <div class="bus-details">
+                <h3>Bus A</h3>
+                <p>Departure: 10:00 AM</p>
+                <p>Arrival: 2:00 PM</p>
+                <p>Price: $20</p>
+                <button class="book-btn">Book Now</button>
+            </div>
+        </div>
+        <div class="bus-card">
+            <div class="bus-details">
+                <h3>Bus B</h3>
+                <p>Departure: 12:00 PM</p>
+                <p>Arrival: 4:00 PM</p>
+                <p>Price: $22</p>
+                <button class="book-btn">Book Now</button>
+            </div>
+        </div>
+        <!-- More bus cards can be added here -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 RedBus, All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
